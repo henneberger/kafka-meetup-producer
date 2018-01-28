@@ -1,0 +1,13 @@
+properties: !!java.util.Properties {
+  bootstrap.servers: "localhost:9092",
+  broker.list: "localhost:9092",
+  group.id: None,
+  acks: all,
+  key.serializer: org.apache.kafka.common.serialization.StringSerializer,
+  value.serializer: org.apache.kafka.common.serialization.StringSerializer,
+  enable.auto.commit: true,
+  auto.commit.interval.ms: 1000,
+  session.timeout.ms: 30000
+}
+
+topic: events

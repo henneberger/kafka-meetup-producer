@@ -1,0 +1,4 @@
+kafka-meetup-consumer.out
+target/*
+project/*
+.idea
